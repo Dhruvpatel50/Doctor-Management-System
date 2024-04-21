@@ -366,15 +366,15 @@ input[type=search]:focus {
   color: var(--primarycolor);
 }
 
-
-
 .menu-icon-dashbord{
   background-image: url('../img/icons/dashboard.svg');
 }
 
-
 .menu-icon-doctor{
   background-image: url('../img/icons/doctors.svg');
+}
+.menu-icon-video{
+  background-image: url('../img/icons/video.svg');
 }
 .menu-icon-schedule{
   background-image: url('../img/icons/schedule.svg');
@@ -396,8 +396,6 @@ input[type=search]:focus {
   background-image: url('../img/icons/home.svg');
 }
 
-
-
 .menu-icon-dashbord:hover,.menu-icon-dashbord-active{
   color: var(--primarycolor);
 
@@ -418,6 +416,11 @@ input[type=search]:focus {
   color: var(--primarycolor);
   
   background-image: url('../img/icons/book-hover.svg');
+}
+.menu-icon-video:hover,.menu-icon-video-active{
+  color: var(--primarycolor);
+  
+  background-image: url('../img/icons/video.svg');
 }
 .menu-icon-patient:hover,.menu-icon-patient-active{
   color: var(--primarycolor);
